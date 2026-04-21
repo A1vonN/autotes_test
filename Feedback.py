@@ -10,8 +10,7 @@ croptions = webdriver.ChromeOptions()
 croptions.add_argument("--incognito")
 
 
-# https://dev-l-tech.l-tech.ru/requests обсудить проект
-# https://dev-l-tech.l-tech.ru/ главная
+
 
 
 def find_sender(driver, path, text):
@@ -20,7 +19,7 @@ def find_sender(driver, path, text):
 
 try:
     driver = webdriver.Chrome(options=croptions)
-    driver.get("https://dev-l-tech.l-tech.ru/requests")
+    driver.get("123123123")
     driver.implicitly_wait(5)
     # main project
     element = driver.find_element(
